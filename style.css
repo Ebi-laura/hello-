@@ -1,0 +1,185 @@
+/* Parent div */
+.parent{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+/* first section */
+#firstpart{
+    width: 50%;
+    height: 400px;
+    background-color: hsl(252, 100%, 67%);
+    border-radius: 6%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    font-weight: lighter;
+    justify-content: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241,81%, 54%));
+}
+/* first child div */
+.circle{
+    height: 150px;
+    width:150px;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    
+}
+.small{
+    font-size: small;
+    font-weight: lighter;
+}
+.circle h4{
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.circle p{
+margin-top: 0px;
+font-size: smaller;
+font-weight: lighter;
+}
+.big{
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* Second section */
+#secondpart{
+    width: 50%;
+    height: 400px;
+    background-color: hsl(0, 0, 100%);
+    font-size: 18px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+/* First child div */
+.second{
+    color:black;
+    margin-left: 20px;
+}
+/* first paragraph */
+.par1{
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.205);
+    height: 25px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsl(0, 100%, 67%);
+}
+.num1{
+    margin-left: 75%;
+    color: black;
+}
+/* second paragraph */
+.par2{
+    border-radius: 10px;
+    background-color: hsla(39, 100%, 56%, 0.205);
+    height: 25px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsl(39, 100%, 56%);
+}
+num2{
+    margin-left: 75%;
+    color: black;
+}
+/* third paragraph */
+.par3{
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%, 0.205);
+    height: 25px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsl(166, 100%, 37%);
+}
+
+.num3{
+    margin-left: 76%;
+    color: black;
+}
+/* fourth paragraph */
+.par4{
+    border-radius: 10px;
+    background-color: hsla(241, 85%, 45%, 0.205);
+    height: 25px;
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsl(241, 85%, 45%);
+}
+.num4{
+    margin-left: 76%;
+    color: black;
+}
+/* Button */
+button{
+    background-color:blue;
+    color: white;
+    border: none;
+    width: 400px;
+   font-size: 18px;
+   line-height: 25px;
+   padding: 10px 0;
+   border-radius: 25px;
+   cursor: pointer;
+   margin-left: 100px;
+   
+}
+button :hover{
+    background: hsl(224, 30%, 27%);
+}
+/* footer */
+footer p{
+    font-style: italic;
+    margin-left: 50px;
+    font-size: small;
+}
+footer span{
+    color: rgb(47, 47, 250);
+}
+
+@media screen and (max-width:375px) {
+    .parent{
+        display: block;
+    }
+    #firstpart{
+        width: 100% !important; 
+        margin-top: 0%;
+    }
+    #secondpart{
+        width: 100% !important;
+        margin-top: 0%;
+    }
+    button{
+    margin-left: 20px;
+    background-color:hsl(224, 30%, 27%) ;
+    width: 300px;
+    }
+    .num1{
+        margin-left: 50%;
+    }
+    .num2{
+        margin-left: 50%;
+    }.num3{
+        margin-left: 54%;
+    }.num4{
+        margin-left: 54%;
+    }
+    footer{
+        margin-left:0px;
+    }
+}
+
