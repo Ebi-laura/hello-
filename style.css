@@ -73,9 +73,14 @@ font-weight: lighter;
     padding-top: 15px;
     padding-bottom: 15px;
     color: hsl(0, 100%, 67%);
+    background-image: url(icon-reaction.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 17px;
+    text-align: right;
 }
 .num1{
-    margin-left: 75%;
+     margin-left: 72%;
+    margin-right: 5%;
     color: black;
 }
 /* second paragraph */
@@ -88,9 +93,14 @@ font-weight: lighter;
     padding-top: 15px;
     padding-bottom: 15px;
     color: hsl(39, 100%, 56%);
+    background-image: url(icon-memory.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 17px;
+    text-align: right;
 }
-num2{
-    margin-left: 75%;
+.num2{
+    margin-left: 72%;
+    margin-right: 5%;
     color: black;
 }
 /* third paragraph */
@@ -103,10 +113,15 @@ num2{
     padding-top: 15px;
     padding-bottom: 15px;
     color: hsl(166, 100%, 37%);
+    background-image: url(icon-verbal.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 17px;
+    text-align: right;
 }
 
 .num3{
-    margin-left: 76%;
+    margin-left: 75%;
+    margin-right: 5%;
     color: black;
 }
 /* fourth paragraph */
@@ -119,14 +134,19 @@ num2{
     padding-top: 15px;
     padding-bottom: 15px;
     color: hsl(241, 85%, 45%);
+    background-image: url(icon-visual.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 17px;
+    text-align: right;
 }
 .num4{
-    margin-left: 76%;
+    margin-left: 75%;
+    margin-right: 5%;
     color: black;
 }
 /* Button */
 button{
-    background-color:blue;
+    background-color: hsl(224, 30%, 27%);
     color: white;
     border: none;
     width: 400px;
@@ -138,8 +158,8 @@ button{
    margin-left: 100px;
    
 }
-button :hover{
-    background: hsl(224, 30%, 27%);
+button:active{
+    background:blue;
 }
 /* footer */
 footer p{
